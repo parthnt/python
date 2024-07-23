@@ -2,6 +2,7 @@ from turtle import Turtle, Screen, TK
 import random
 
 screen = Screen()
+screen.setup(width=500, height=400)
 colors = ["red", "orange", "yellow", "green", "blue", "purple"]
 is_race_on = True
 
